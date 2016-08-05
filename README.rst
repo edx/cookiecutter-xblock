@@ -16,3 +16,7 @@ To see your new XBlock in action, build and run a Docker image containing it::
         $ docker run -d -p 8000:8000 --name yourxblock yourxblock
 
 Your XBlock should now be available at http://localhost:8000
+
+As a next step, you can pick up the XBlock tutorial at the `Customizing Your XBlock`_ section.
+
+.. Customizing Your XBlock: http://edx.readthedocs.io/projects/xblock-tutorial/en/latest/customize/index.html
