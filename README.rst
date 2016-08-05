@@ -12,8 +12,8 @@ Enter the short name and primary class name of your new XBlock when prompted.
 
 To see your new XBlock in action, build and run a Docker image containing it::
 
-        $ docker build -t yourxblock .
-        $ docker run -d -p 8000:8000 --name yourxblock yourxblock
+        $ docker build -t myxblock .
+        $ docker run -d -p 8000:8000 --name myxblock myxblock
 
 Your XBlock should now be available at http://localhost:8000
 
