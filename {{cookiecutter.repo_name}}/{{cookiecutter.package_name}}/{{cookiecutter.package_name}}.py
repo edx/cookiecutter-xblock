@@ -59,13 +59,13 @@ class {{cookiecutter.class_name}}(XBlock):
         """A canned scenario for display in the workbench."""
         return [
             ("{{cookiecutter.class_name}}",
-             """<{{cookiecutter.package_name|lower}}/>
+             """<{{cookiecutter.tag_name|lower}}/>
              """),
             ("Multiple {{cookiecutter.class_name}}",
              """<vertical_demo>
-                <{{cookiecutter.package_name|lower}}/>
-                <{{cookiecutter.package_name|lower}}/>
-                <{{cookiecutter.package_name|lower}}/>
+                <{{cookiecutter.tag_name|lower}}/>
+                <{{cookiecutter.tag_name|lower}}/>
+                <{{cookiecutter.tag_name|lower}}/>
                 </vertical_demo>
              """),
         ]
