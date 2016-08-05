@@ -1,4 +1,7 @@
 {
-    "short_name": "",
+    "project_desc": "My First XBlock",
+    "repo_name": "my-first-xblock",
+    "package_name": "myxblock",
+    "tag_name": "myxblock",
     "class_name": "MyXBlock"
 }

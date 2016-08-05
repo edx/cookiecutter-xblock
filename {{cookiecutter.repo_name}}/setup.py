@@ -1,4 +1,4 @@
-"""Setup for {{cookiecutter.short_name|lower}} XBlock."""
+"""Setup for {{cookiecutter.project_desc}}."""
 
 import os
 from setuptools import setup
@@ -21,20 +21,20 @@ def package_data(pkg, roots):
 
 
 setup(
-    name='{{cookiecutter.short_name}}-xblock',
+    name='{{cookiecutter.project_name}}',
     version='0.1',
-    description='{{cookiecutter.short_name}} XBlock',   # TODO: write a better description.
+    description='{{cookiecutter.project_desc}}',   # TODO: write a better description.
     license='UNKNOWN',          # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
     packages=[
-        '{{cookiecutter.short_name}}',
+        '{{cookiecutter.package_name}}',
     ],
     install_requires=[
         'XBlock',
     ],
     entry_points={
         'xblock.v1': [
-            '{{cookiecutter.short_name}} = {{cookiecutter.short_name}}:{{cookiecutter.class_name}}',
+            '{{cookiecutter.tag_name}} = {{cookiecutter.package_name}}:{{cookiecutter.class_name}}',
         ]
     },
-    package_data=package_data("{{cookiecutter.short_name}}", ["static", "public"]),
+    package_data=package_data("{{cookiecutter.package_name}}", ["static", "public"]),
 )
