@@ -21,7 +21,7 @@ def package_data(pkg, roots):
 
 
 setup(
-    name='{{cookiecutter.project_name}}',
+    name='{{cookiecutter.project_desc}}',
     version='0.1',
     description='{{cookiecutter.project_desc}}',   # TODO: write a better description.
     license='UNKNOWN',          # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
