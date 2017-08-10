@@ -1,4 +1,4 @@
-FROM xblock-sdk
+FROM jbarciauskas/xblock-sdk
 RUN mkdir -p /usr/local/src/{{cookiecutter.repo_name}}
 VOLUME ["/usr/local/src/{{cookiecutter.repo_name}}"]
 RUN echo "pip install -e /usr/local/src/{{cookiecutter.repo_name}}" >> /usr/local/src/xblock-sdk/install_and_run_xblock.sh
