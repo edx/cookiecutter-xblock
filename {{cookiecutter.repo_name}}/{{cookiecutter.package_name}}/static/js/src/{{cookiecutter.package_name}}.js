@@ -17,6 +17,12 @@ function {{cookiecutter.class_name}}(runtime, element) {
     });
 
     $(function ($) {
+        /*
+        Use `gettext` provided by django-statici18n for static translations
+
+        var gettext = {{cookiecutter.class_name}}i18n.gettext;
+        */
+
         /* Here's where you'd do things on page load. */
     });
 }
