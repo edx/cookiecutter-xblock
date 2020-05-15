@@ -1,3 +1,9 @@
+This repository has been archived and is no longer supported—use it at your own risk. This repository may depend on out-of-date libraries with security issues, and security updates will not be provided. Pull requests against this repository will also not be merged.
+
+This cookiecutter has been moved to `edx-cookiecutter`_
+
+.. _edx-cookecutter: https://github.com/edx/edx-cookiecutters
+
 This is a cookiecutter template for new XBlocks.
 
 It enables creation of the XBlock repository as well as a Dockerfile for building and running your XBlock in the xblock-sdk workbench.
